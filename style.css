@@ -1,0 +1,101 @@
+@media only screen and (max-device-width : 768px){
+    #wholePage{
+        margin-left:10px;
+        margin-right:10px;
+    }
+    #topSectionSymbol{
+        margin-bottom:10px;
+    }
+    #automaticrefreshsection {
+        display: none;
+    }
+    #navgationbarsection{
+        padding:0;
+        width:100%;
+    }
+    #favlist{
+        padding:0;
+        text-align: center;
+    }
+    #nav-top{
+        padding:0;
+    }
+    .container-fluid{
+        padding:0
+    }
+    #choicebarsection{
+        margin-left:1%
+    }
+    .spacetag{
+        display: none;
+    }
+    #mynavgationleft{
+        margin-left:5px;
+    }
+    .flexy { overflow-x: scroll; }
+    th, td { min-width: 80px; }
+    #mytoogleparts li{width:30%}
+}
+html {
+    background: url('http://cs-server.usc.edu:45678/hw/hw8/images/background.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#mybox{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+.leftDiv.animate-hide {
+    -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.4s;
+    -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.4s;
+    -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.4s;
+    transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.4s;
+    opacity:1;
+    position:relative;
+    left:0;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom: 10px;
+}
+.rightDiv.animate-hide {
+    -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.4s;
+    -moz-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.4s;
+    -o-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.4s;
+    transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.4s;
+    opacity:1;
+    position:relative;
+    right:0;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom: 10px;
+}
+.leftDiv.animate-hide.ng-hide{
+    left:-100%;
+    opacity:0;
+}
+.rightDiv.animate-hide.ng-hide{
+    right:-100%;
+    opacity:0;
+}
+tr{
+    line-height: 50px;
+    min-height: 50px;
+    height: 50px;
+}
+.myimg{
+    width:15px;
+    height:15px;
+}
+.well {
+    overflow: hidden
+}
+a, u {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+md-autocomplete md-progress-linear { display: none; }

@@ -1,0 +1,15 @@
+{
+  "name": "myapp",
+  "description": "my app",
+  "version": "4.4.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Xuefeng",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "",
+    "express": "",
+    "xml2js": ""
+  }
+}
