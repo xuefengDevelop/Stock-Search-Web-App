@@ -6,6 +6,6 @@ Used many different texhnologies like Node JS, Angular JS, Highcharts JS, bootst
 
 This is the live demon:http://cs-server.usc.edu:25799/stockMarket.html
 
-I am happy if someone has any question and any suggestion. here is my email:  xuefengyan@yahoo.com.
+I am happy to answer if someone has any questions and any suggestions. here is my email:  xuefengyan@yahoo.com.
 
 Welcome to send message to me.
